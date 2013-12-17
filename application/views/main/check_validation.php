@@ -16,7 +16,8 @@ Theater: <input name = 'm_theater'type="text" disabled value ="<?php	echo $summa
 Address: <input name = 'm_address'type="text" disabled value ="<?php	echo $summary['m_address'];?>"><br>
 Time: <input name = 'm_time'type="text" disabled value ="<?php	echo $summary['m_time'];?>"><br>
 Date: <input name = 'm_date'type="text" disabled value ="<?php	echo $summary['m_date'];?>"><br>
-Seat: <input name = 'seat'type="text" disabled value ="<?php	echo $summary['seat'];?>"> <?php  echo ' (from left to right, start at 0) ';?> <br>
+Seat: <input name = 'seat'type="text" disabled value ="<?php	echo $summary['seat'];?>"> 
+<?php  echo ' (from left to right, start at 0) ';?> <br>
 </fieldset>
 <fieldset>
 <legend>Payment Summary:</legend>
