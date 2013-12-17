@@ -7,7 +7,7 @@ function validateEXP(){
 	
 	var year = document.getElementById("expireYY");
 	var month = document.getElementById("expireMM");
-	var b = year.value;
+	var b = year.value;
 	var a = month.value;
 	var str=new Date().getFullYear()+'';
 	str= str.match(/\d{2}$/);
